@@ -1,0 +1,352 @@
+body{
+  background: #eef2f9;
+  font-family: 'Nunito', sans-serif;
+}
+/*Header*/
+  header{
+    height: 50px;
+    display: flex;
+    background: #70b3f8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #9ba8fc , #70b3f8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #9ba8fc, #70b3f8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #9ba8fc, #70b3f8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #9ba8fc , #70b3f8); /* Standard syntax */
+  }
+  .logo{
+    height: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    background-color: #888fdc;
+    display: inline-block;
+    color: #fff;
+    padding: 0 20px;
+  }
+  h1{
+    font-size: 24px;
+    color: #6e6e8e;
+    margin: 30px 0 20px 0;
+  }
+  h1 span {
+    height: 10px;
+    font-size: 10px;
+    color: #c2c3d1;
+    margin-right: 15px;
+  }
+  h2 {
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 0 15px 0;
+  }
+
+  h3.title {
+    margin: 15px 0 10px 0;
+    color: #787895;
+    font-size: 18px;
+  }
+  p.description {
+    color: #787895;
+    font-size: 14px;
+  }
+
+  .date {
+    color: #6e6e8e;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+
+  #date {
+    font-weight: 700;
+  }
+
+/*All Content*/
+  .content {
+    padding: 0 50px;
+  }
+  .column {
+    background: #f6f8fc;
+    padding: 0;
+    color: #636386;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .task {
+    background: #fff;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 4px;
+  }
+
+
+/*Settings Icon*/
+  .settingsIcon{
+    float: right;
+    display: inline-block;
+    border-left: 1px solid rgba(255,255,255, 0.3);
+    padding: 15px 15px; 
+    font-size: 15px;
+    height: 50px;
+    color: #fff;
+  }
+
+/*SearchInput*/
+  i.fa-search{
+    color: #fff;
+    padding-left: 20px;
+    font-size: 12px;
+    padding: 18px 20px;
+    position: absolute;
+  }
+  .serchInput {
+    width: 90%;
+    height: 100%;
+    position: relative;
+  }
+  input {
+    background: unset;
+    border: none;
+    padding-left: 50px;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #f1f3ff;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #f1f3ff;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #f1f3ff;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #f1f3ff;
+  }
+
+/*Edit Mode*/
+  .titleInput{
+    color: #6e6e8e;
+    background: unset;
+    border-radius: 8px;
+    border:1px solid rgba(184,184,200,0.2);
+    font-size: 18px;
+    padding: 0 10px;
+    margin: 10px 0 5px 0;
+    width: 100%;
+    outline: none;
+  }
+  .descriptionInput {
+    color: #787895;
+    border-radius: 8px;
+    font-size: 14px;
+    background: unset;
+    border:1px solid rgba(184,184,200,0.2);
+    padding-left: 10px;
+    width: 100%;
+    resize: none;
+    height: 70px;
+    outline: none;
+  }
+
+
+
+
+
+
+
+
+/*Decorative Lines*/
+  .decorative-line-1 {
+    width: 100%;
+    height: 4px;
+    background: red;
+    margin-bottom: 20px;
+    background: #c775e9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #c775e9 , #e1788f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #c775e9, #e1788f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #c775e9, #e1788f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #c775e9 , #e1788f); /* Standard syntax */
+  }
+
+  .decorative-line-2 {
+    width: 100%;
+    height: 4px;
+    margin-bottom: 20px;
+    background: #ff907b; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #ff907b , #feb851); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ff907b, #feb851); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ff907b, #feb851); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ff907b , #feb851); /* Standard syntax */
+  }
+  .decorative-line-3 {
+    width: 100%;
+    height: 4px;
+    margin-bottom: 20px;
+    background: #75d1a3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #75d1a3 , #75d3ec); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #75d1a3, #75d3ec); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #75d1a3, #75d3ec); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #75d1a3 , #75d3ec); /* Standard syntax */
+  }
+
+/*Add Button*/
+  .addbutton {
+    text-align: center;
+    color: #8e8fa8;
+    padding: 13px 0 13px 0;
+    border-radius: 0 0 4px 4px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+  .addbutton i{
+    margin: 3px 5px -5px 5px;
+  }
+
+  .addbutton:hover {
+    box-shadow: inset 0 5px 10px rgba(0,0,0,0.05);
+  }
+
+
+
+
+/*Labels*/
+  .buttons {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #adadbe;
+    cursor: pointer;
+  }
+  .buttonsChange {
+    width: 50%;
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+  }
+
+  .button {
+    margin: 5px 15px 5px 0;  
+  }
+
+  .buttonsChange .button{
+    margin: 5px 0 5px 15px;
+  }
+  
+
+  label{
+    margin: 0;
+  }
+  .radio.low {
+    font-size: 10px;
+    display: inline-block;
+    padding: 4px 7px 4px 7px;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #79b1f8;
+    color: #79b1f8;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+  }
+  .radio.mid {
+    font-size: 10px;
+    display: inline-block;
+    padding: 4px 7px 4px 7px;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #7fd5be;
+    color: #7fd5be;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+  }
+  .radio.high {
+    font-size: 10px;
+    display: inline-block;
+    padding: 4px 7px 4px 7px;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #d17cd1;
+    color: #d17cd1;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .labelstat.low {
+    font-size: 10px;
+    display: inline-block;
+    padding: 4px 7px 4px 7px;
+    color: #fff;
+    border-radius: 3px;
+    background: #79b1f8;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .labelstat.mid {
+    font-size: 10px;
+    display: inline-block;
+    padding: 4px 7px 4px 7px;
+    color: #fff;
+    border-radius: 3px;
+    background: #7fd5be;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .labelstat.high {
+    font-size: 10px;
+    display: inline-block;
+    padding: 4px 7px 4px 7px;
+    color: #fff;
+    border-radius: 3px;
+    background: #d17cd1;
+    color: #fff;
+  }
+
+  input[type=radio] {
+    display: none;
+  }
+
+  input[type=radio]:checked + label .radio.low{
+    background: #79b1f8;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type=radio]:checked + label .radio.mid{
+    background: #7fd5be;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type=radio]:checked + label .radio.high{
+    background: #d17cd1;
+    color: #fff;
+    cursor: pointer;
+  }
+
+/* Task time*/
+  .time {
+    font-size: 12px;
+    color: #adadbe;
+    float: right;
+    margin-top: 3px;
+  }
+
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 0 10px;
+  }
+  .time {
+    font-size: 12px;
+    color: #adadbe;
+    float: none;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+}
